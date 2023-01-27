@@ -5,7 +5,7 @@ let testsAdd2 = [
         assertEqual(add2(num), 27);
         assertGreater(add2(num), num);
     },
-    function test_add2_not_string() {
+    function test_add2_not_equal() {
         assertNotEqual(add2(25), 42);
     },
 ]
